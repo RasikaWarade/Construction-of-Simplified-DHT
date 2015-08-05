@@ -5,3 +5,19 @@ Distributed Hashtables (DHTs) are structured peer-to-peer (P2P) systems that hav
 ###
 
 
+1)In this program, I have all my code in two package structures :
+
+cs455/overlay/node/* and cs455/overlay/wireformats/*
+
+2) The provided make file will compile all the java files.
+
+Enter  $make command in the directory which has the folder cs455
+
+3)The Registry has to be run manually by executing the following command:
+
+	$java cs455.overlay.node.Registry 7689
+
+4) You can run the test_overlay.sh script for the messaging nodes.
+
+
+
